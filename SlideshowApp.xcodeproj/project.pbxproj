@@ -13,6 +13,10 @@
 		FF2E992C2817DD8F009C6AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2E992A2817DD8F009C6AC3 /* Main.storyboard */; };
 		FF2E992E2817DD91009C6AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2E992D2817DD91009C6AC3 /* Assets.xcassets */; };
 		FF2E99312817DD91009C6AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2E992F2817DD91009C6AC3 /* LaunchScreen.storyboard */; };
+		FF2E99392817DDF7009C6AC3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E99382817DDF7009C6AC3 /* SecondViewController.swift */; };
+		FF4813D8281BF3C100550BEB /* plane-513641_1280.webp in Resources */ = {isa = PBXBuildFile; fileRef = FF4813D5281BF3C100550BEB /* plane-513641_1280.webp */; };
+		FF4813D9281BF3C100550BEB /* airplane-3702676_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4813D6281BF3C100550BEB /* airplane-3702676_1280.jpg */; };
+		FF4813DA281BF3C100550BEB /* airplane-7116299_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF4813D7281BF3C100550BEB /* airplane-7116299_1280.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		FF2E992D2817DD91009C6AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF2E99302817DD91009C6AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF2E99322817DD91009C6AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2E99382817DDF7009C6AC3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FF4813D5281BF3C100550BEB /* plane-513641_1280.webp */ = {isa = PBXFileReference; lastKnownFileType = file; name = "plane-513641_1280.webp"; path = "../../../../Downloads/plane-513641_1280.webp"; sourceTree = "<group>"; };
+		FF4813D6281BF3C100550BEB /* airplane-3702676_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "airplane-3702676_1280.jpg"; path = "../../../../Downloads/airplane-3702676_1280.jpg"; sourceTree = "<group>"; };
+		FF4813D7281BF3C100550BEB /* airplane-7116299_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "airplane-7116299_1280.jpg"; path = "../../../../Downloads/airplane-7116299_1280.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				FF2E99242817DD8F009C6AC3 /* AppDelegate.swift */,
 				FF2E99262817DD8F009C6AC3 /* SceneDelegate.swift */,
 				FF2E99282817DD8F009C6AC3 /* ViewController.swift */,
+				FF2E99382817DDF7009C6AC3 /* SecondViewController.swift */,
 				FF2E992A2817DD8F009C6AC3 /* Main.storyboard */,
+				FF4813D6281BF3C100550BEB /* airplane-3702676_1280.jpg */,
+				FF4813D7281BF3C100550BEB /* airplane-7116299_1280.jpg */,
+				FF4813D5281BF3C100550BEB /* plane-513641_1280.webp */,
 				FF2E992D2817DD91009C6AC3 /* Assets.xcassets */,
 				FF2E992F2817DD91009C6AC3 /* LaunchScreen.storyboard */,
 				FF2E99322817DD91009C6AC3 /* Info.plist */,
@@ -126,6 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2E99312817DD91009C6AC3 /* LaunchScreen.storyboard in Resources */,
+				FF4813D8281BF3C100550BEB /* plane-513641_1280.webp in Resources */,
+				FF4813DA281BF3C100550BEB /* airplane-7116299_1280.jpg in Resources */,
+				FF4813D9281BF3C100550BEB /* airplane-3702676_1280.jpg in Resources */,
 				FF2E992E2817DD91009C6AC3 /* Assets.xcassets in Resources */,
 				FF2E992C2817DD8F009C6AC3 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2E99392817DDF7009C6AC3 /* SecondViewController.swift in Sources */,
 				FF2E99292817DD8F009C6AC3 /* ViewController.swift in Sources */,
 				FF2E99252817DD8F009C6AC3 /* AppDelegate.swift in Sources */,
 				FF2E99272817DD8F009C6AC3 /* SceneDelegate.swift in Sources */,
