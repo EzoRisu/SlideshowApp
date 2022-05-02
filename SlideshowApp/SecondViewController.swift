@@ -8,11 +8,18 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
+    @IBOutlet weak var currentImage: UIImageView!
+    @IBOutlet weak var backButton: UIButton!
+    
+    var image: UIImage!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        currentImage.image = image
     }
     
 
